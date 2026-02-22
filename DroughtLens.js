@@ -143,8 +143,7 @@ var runButton = ui.Label({
         padding: '12px',
         width: '100%',
         margin: '20px 0',
-        border: '2px solid #144316',
-        cursor: 'pointer'
+        border: '2px solid #144316'
     }
 });
 panel.add(runButton);
