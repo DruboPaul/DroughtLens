@@ -15,28 +15,57 @@ This platform is specifically designed to address key research themes in ecosyst
 
 ---
 
+---
+
+## 🧪 Scientific Methodology
+
+DroughtLens utilizes a multi-sensor, multi-temporal approach to quantify environmental stress:
+
+### 1. Anomaly Mapping (z-score)
+Environmental indicators (NDVI, SM, ET, LST) are calculated as standard anomalies:
+$$z = \frac{(x - \mu)}{\sigma}$$
+Where $x$ is the target year mean, $\mu$ is the historical baseline (2001-2022) mean, and $\sigma$ is the standard deviation. This normalizes the data, allowing for direct comparison across different biomes.
+
+### 2. Composite Drought Severity Index (CDSI)
+A weighted integration of multiple environmental stressors to reduce uncertainty in drought detection:
+**$CDSI = (0.30 \times NDVI_{anom}) + (0.25 \times SPI) + (0.25 \times SM_{anom}) - (0.20 \times LST_{anom})$**
+
+### 3. Ecosystem Resilience (Recovery Rate)
+Calculated as the ratio of post-drought greenness recovery relative to the drought-induced deficit. High values indicate strong ecosystem elasticity and rapid recovery post-stress.
+
+---
+
+## 📊 Data Sources
+
+| Indicator | Dataset Source | Resolution | Time Scale |
+| :--- | :--- | :--- | :--- |
+| **Vegetation (NDVI)** | MODIS (MOD13A1) / Sentinel-2 | 500m / 10m | 16-Day / 5-Day |
+| **Precipitation** | CHIRPS Daily | 5.5 km | Daily |
+| **Soil Moisture** | ERA5-Land Monthly | 11 km | Monthly |
+| **Surface Temp** | MODIS (MOD11A2) | 1 km | 8-Day |
+| **Evapotranspiration**| MODIS (MOD16A2) | 500m | 8-Day |
+| **Surface Water** | Sentinel-1 SAR | 10m | 12-Day |
+
+---
+
 ## 🚀 Key Features
 
 ### 1. Multi-Evidence Indicators
-DroughtLens goes beyond standard NDVI monitoring by integrating five distinct data streams:
-*   **NDVI Anomaly (z-score)**: Vegetation health deviations (Sentinel-2 / MODIS).
-*   **SPI (Standardized Precipitation Index)**: Meteorological drought (CHIRPS).
-*   **Soil Moisture Anomaly**: Root-zone water availability (ERA5-Land).
-*   **Evapotranspiration (ET) Anomaly**: Carbon/Water flux response proxy (MODIS).
-*   **LST Anomaly**: Thermal stress monitoring (MODIS).
+DroughtLens goes beyond standard NDVI monitoring by integrating distinct data streams to provide a holistic ecosystem perspective:
+*   **NDVI Anomaly**: Vegetation health deviations.
+*   **SPI (Standardized Precipitation Index)**: Meterological drought intensity.
+*   **Soil Moisture Anomaly**: Root-zone water availability from reanalysis data.
+*   **Evapotranspiration (ET) Anomaly**: Proxy for ecosystem water-use efficiency and carbon flux.
+*   **LST Anomaly**: Detection of thermal stress and heatwave impacts on canopy cover.
 
 ### 2. Ecosystem Resilience & Trends
-*   **NDVI Recovery Rate**: A custom metric calculating the ratio of post-drought recovery relative to the drought drop.
-*   **Sen's Slope Trend**: Long-term vegetation greening/browning analysis.
-*   **Rainfall-NDVI Correlation**: Quantifying ecosystem dependency on precipitation.
+*   **NDVI Recovery Rate**: Quantification of post-perturbation recovery dynamics.
+*   **Sen's Slope Trend**: Non-parametric trend analysis for long-term greening/browning.
+*   **Rainfall-NDVI Correlation**: Pixel-wise Pearson correlation to map vegetation-rainfall coupling.
 
-### 3. Composite Drought Severity Index (CDSI)
-A weighted multi-indicator index that combines vegetation health, rainfall, soil moisture, and temperature into a single "multiple lines of evidence" drought map.
-
-### 4. Hybrid Resolution & Scalability
-*   **Continental Scale**: Integrated MODIS (500m) support for large regions to ensure memory efficiency.
-*   **Local Scale**: Integrated Sentinel-2 (10m) resolution for state-level or custom AOI analysis.
-*   **Interactive Drawing**: Custom tool to draw an AOI directly on the map for high-resolution targeted studies.
+### 3. Hybrid Resolution & Scalability
+*   **Continental Scale**: Adaptive MODIS (500m) processing for efficient Australia-wide mapping.
+*   **Local Scale**: High-resolution Sentinel-2 (10m) analysis for targeted sites or custom AOIs.
 
 ---
 
