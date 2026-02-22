@@ -131,19 +131,13 @@ var sensorSelect = ui.Select({
 panel.add(sensorSelect);
 
 /* --- Run Button Section --- */
-// Using ui.Label styled as a button for guaranteed background color application
-var runButton = ui.Label({
-    value: '▶  RUN ANALYSIS',
+var runButton = ui.Button({
+    label: '▶  RUN ANALYSIS',
     style: {
-        backgroundColor: '#1B5E20', // Forest Green for action
-        color: '#ffffff',           // Distinct white text
-        fontWeight: 'bold',
-        fontSize: '14px',
-        textAlign: 'center',
-        padding: '12px',
         width: '100%',
         margin: '20px 0',
-        border: '2px solid #144316'
+        fontWeight: 'bold',
+        color: '#1B5E20' // Dark Green text for high visibility
     }
 });
 panel.add(runButton);
