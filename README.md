@@ -7,7 +7,7 @@ DroughtLens is a comprehensive, research-grade platform developed in Google Eart
 
 ---
 
-## 🔬 PhD Research Alignment
+##  PhD Research Alignment
 This platform is specifically designed to address key research themes in ecosystem drought studies:
 *   **Topic**: *Analysing ecosystem drought responses using multiple lines of evidence.*
 *   **Key Question**: How do different global ecosystems withstand and recover from severe drought events?
@@ -17,7 +17,7 @@ This platform is specifically designed to address key research themes in ecosyst
 
 ---
 
-## 🧪 Scientific Methodology
+##  Scientific Methodology
 
 DroughtLens utilizes a multi-sensor, multi-temporal approach to quantify environmental stress:
 
@@ -35,7 +35,7 @@ Calculated as the ratio of post-drought greenness recovery relative to the droug
 
 ---
 
-## 📊 Data Sources
+##  Data Sources
 
 | Indicator | Dataset Source | Resolution | Time Scale |
 | :--- | :--- | :--- | :--- |
@@ -48,7 +48,7 @@ Calculated as the ratio of post-drought greenness recovery relative to the droug
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Multi-Evidence Indicators
 DroughtLens goes beyond standard NDVI monitoring by integrating distinct data streams to provide a holistic ecosystem perspective:
@@ -81,7 +81,7 @@ DroughtLens goes beyond standard NDVI monitoring by integrating distinct data st
 
 ---
 
-## 🛠️ How to Use
+##  How to Use
 
 1.  Copy the code from `DroughtLens.js`.
 2.  Paste it into the [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
@@ -92,11 +92,11 @@ DroughtLens goes beyond standard NDVI monitoring by integrating distinct data st
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 *   `DroughtLens.js`: Main Platform Source Code.
 *   `README.md`: Project Documentation.
 
 ---
 
-## 🤝 Contact
+##  Contact
 For inquiries or collaborations regarding this platform, please reach out via GitHub.
