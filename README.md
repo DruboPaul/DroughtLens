@@ -7,8 +7,6 @@ DroughtLens is a comprehensive, research-grade platform developed in Google Eart
 
 ---
 
----
-
 ## 🧪 Scientific Methodology
 
 DroughtLens utilizes a multi-sensor, multi-temporal approach to quantify environmental stress:
