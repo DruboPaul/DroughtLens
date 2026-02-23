@@ -621,4 +621,4 @@ resetButton.onClick(function () {
     insightLabel.setValue('Run an analysis to see scientific insights and interpretation guides here.');
 });
 
-panel.add(ui.Label('© 2026 DroughtLens | UNSW Sydney Research Project', { fontSize: '10px', color: '#999', textAlign: 'center', margin: '20px 0' }));
+panel.add(ui.Label('© 2026 DroughtLens | Ecosystem Drought Response Platform', { fontSize: '10px', color: '#999', textAlign: 'center', margin: '20px 0' }));

@@ -1,7 +1,7 @@
 # DroughtLens 🌍
 
 ### Ecosystem Drought Response Intelligence Platform
-**Multi-Evidence Drought Analysis | PhD Research Project (UNSW Sydney)**
+**Multi-Evidence Drought Analysis | Ecosystem Drought Response Platform**
 
 DroughtLens is a comprehensive, research-grade platform developed in Google Earth Engine (GEE) to analyze ecosystem drought responses using multiple lines of evidence. This tool integrates meteorological, hydrological, and ecological indicators to provide a holistic view of drought progression and ecosystem resilience on both continental and local scales.
 
@@ -98,7 +98,5 @@ DroughtLens goes beyond standard NDVI monitoring by integrating distinct data st
 
 ---
 
-## 🤝 Contact & Research
-Developed as part of a research initiative aligned with UNSW Sydney (Water Research Centre).
-**Topic**: Ecosystem Drought Response Analysis.
-**Supervisors**: Dr. Clare Stephens, Dr. Anna Ukkola, A/Prof Yi Liu.
+## 🤝 Contact
+For inquiries or collaborations regarding this platform, please reach out via GitHub.
