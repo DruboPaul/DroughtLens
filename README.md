@@ -62,10 +62,22 @@ DroughtLens goes beyond standard NDVI monitoring by integrating distinct data st
 *   **NDVI Recovery Rate**: Quantification of post-perturbation recovery dynamics.
 *   **Sen's Slope Trend**: Non-parametric trend analysis for long-term greening/browning.
 *   **Rainfall-NDVI Correlation**: Pixel-wise Pearson correlation to map vegetation-rainfall coupling.
+    *   *Interpretation*: 
+        *   **High (Green)**: Ecosystem is strongly rain-dependent (e.g., healthy grasslands).
+        *   **Low (Red)**: Potential "Ecosystem Burnout." Vegetation is failing to respond to rain due to extreme drought stress, land degradation, or a shift to groundwater dependency.
 
-### 3. Hybrid Resolution & Scalability
+### 3. SAR Water Explorer
+*   **SAR Monthly Water**: Radar detection of surface water bodies, unaffected by clouds.
+*   **SAR Monthly View**: Target specific months to analyze seasonal flooding or drying.
+*   **SAR Total Occurrence**: Frequency-based water mapping (0-12 months) to distinguish permanent water from ephemeral flooding.
+
+### 4. Hybrid Resolution & Scalability
 *   **Continental Scale**: Adaptive MODIS (500m) processing for efficient Australia-wide mapping.
-*   **Local Scale**: High-resolution Sentinel-2 (10m) analysis for targeted sites or custom AOIs.
+*   **Local Scale**: High-resolution Sentinel-2 and Sentinel-1 (10m) analysis for targeted sites or custom AOIs.
+
+### 5. Automated Scientific Insights
+*   **Real-time Interpretation**: Dynamic interpretation panel providing plain-language scientific context for all 13 analysis modes.
+*   **PhD Guidance**: Helps researchers and policy-makers understand the ecological significance of the mapped anomalies.
 
 ---
 
