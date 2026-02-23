@@ -7,17 +7,9 @@ DroughtLens is a comprehensive, research-grade platform developed in Google Eart
 
 ---
 
-##  PhD Research Alignment
-This platform is specifically designed to address key research themes in ecosystem drought studies:
-*   **Topic**: *Analysing ecosystem drought responses using multiple lines of evidence.*
-*   **Key Question**: How do different global ecosystems withstand and recover from severe drought events?
-*   **Scope**: Supports analysis for all of Australia and selected global biomes (Amazon, Sahel, SE Asia, etc.).
-
 ---
 
----
-
-##  Scientific Methodology
+## 🧪 Scientific Methodology
 
 DroughtLens utilizes a multi-sensor, multi-temporal approach to quantify environmental stress:
 
